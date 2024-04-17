@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+aside {
+  float: left;
+  margin-right: 100px;
+}
+
+.chart {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.vert>canvas,
+.vert>ol {
+  display: inline-block
+}
+
+.horiz>li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.legend {
+  vertical-align: top;
+  padding-left: 15px;
+  list-style: none;
+}
+
+.key {
+  position: relative;
+}
+
+.key:before {
+  content: "";
+  position: absolute;
+  top: 35%;
+  left: -15px;
+  width: 10px;
+  height: 10px;
+}
